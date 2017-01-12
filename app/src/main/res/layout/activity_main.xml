@@ -11,7 +11,15 @@
     tools:context="com.arifcebe.rxandroid.MainActivity">
 
     <TextView
+        android:id="@+id/label_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
+
+    <Button
+        android:id="@+id/btn_subscribe"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Buka sitik joss"
+        android:layout_below="@+id/label_text"/>
 </RelativeLayout>
